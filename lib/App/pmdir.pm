@@ -3,7 +3,7 @@ BEGIN {
   $App::pmdir::AUTHORITY = 'cpan:GETTY';
 }
 # ABSTRACT: returns the directory of a specific Perl module
-$App::pmdir::VERSION = '0.001';
+$App::pmdir::VERSION = '0.002';
 use strict;
 use warnings;
 use Module::Runtime qw( require_module );
@@ -38,7 +38,7 @@ App::pmdir - returns the directory of a specific Perl module
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 DESCRIPTION
 

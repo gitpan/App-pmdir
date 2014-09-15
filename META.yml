@@ -13,10 +13,12 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
 name: App-pmdir
+requires:
+  Module::Runtime: '0'
 resources:
   homepage: https://github.com/Getty/p5-app-pmdir
   repository: https://github.com/Getty/p5-app-pmdir.git
-version: '0.001'
+version: '0.002'
 x_Dist_Zilla:
   perl:
     version: '5.018001'

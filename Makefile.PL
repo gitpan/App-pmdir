@@ -22,11 +22,13 @@ my %WriteMakefileArgs = (
   ],
   "LICENSE" => "perl",
   "NAME" => "App::pmdir",
-  "PREREQ_PM" => {},
+  "PREREQ_PM" => {
+    "Module::Runtime" => 0
+  },
   "TEST_REQUIRES" => {
     "Test::More" => "0.96"
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -34,6 +36,7 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "Module::Runtime" => 0,
   "Test::More" => "0.96"
 );
 
